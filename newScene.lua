@@ -135,11 +135,12 @@ scene:addEventListener( "destroy", scene )
 -- -------------------------------------------------------------------------------
 
 --table.insert( globals.scenes,1, scene ) -- insert the new scene in position 1
-
+scene._composerFileName = nil
 return scene
 --return scene
 
 
 end -- End dynamic scene creation
+
 
 return newScene
